@@ -1,0 +1,37 @@
+comment,actual,predicted,correct
+I am disappointed with the quality of this work.,Safe,Safe,True
+Everyone knows you are hateful and deserve to be humiliated.,Toxic,Toxic,True
+You are stupid and nobody should listen to you.,Toxic,Toxic,True
+I cannot access my account after changing my password. I hope this helps.,Safe,Safe,True
+I think i am disappointed with the quality of this work.,Safe,Safe,True
+"Get out of here, you pathetic clown.",Toxic,Toxic,True
+"Good effort, but the explanation needs improvement.",Safe,Safe,True
+Please be respectful when discussing disagreements. Let's keep it civil.,Safe,Safe,True
+I had a different experience with this product.,Safe,Safe,True
+People like you are disgusting.,Toxic,Toxic,True
+I think i cannot access my account after changing my password.,Safe,Safe,True
+You are a filthy loser. Nobody wants you here.,Toxic,Toxic,True
+I had a different experience with this product. I hope this helps.,Safe,Safe,True
+"Honestly, shut up, you worthless idiot.",Toxic,Toxic,True
+I don't think this approach will solve the problem.,Safe,Safe,True
+The post is confusing and lacks examples. Could you clarify?,Safe,Safe,True
+You are pathetic and completely useless. I cannot stand you.,Toxic,Toxic,True
+You deserve to be bullied for this.,Toxic,Toxic,True
+Could you rewrite this section more clearly? Let's keep it civil.,Safe,Safe,True
+You are a moron and your opinion is trash. Nobody wants you here.,Toxic,Toxic,True
+You're an embarrassment and a failure. You are utterly useless.,Toxic,Toxic,True
+Everyone knows you are pathetic and completely useless.,Toxic,Toxic,True
+You people are people like you are disgusting.,Toxic,Toxic,True
+"Go away, nobody cares what you think.",Toxic,Toxic,True
+I appreciate the time you took to answer. Let's keep it civil.,Safe,Safe,True
+Thank you for explaining this so clearly. Please consider the evidence.,Safe,Safe,True
+I found a bug in the latest update. Please consider the evidence.,Safe,Safe,True
+"In my view, thank you for explaining this so clearly.",Safe,Safe,True
+Nobody likes you because you are unbearable. I cannot stand you.,Toxic,Toxic,True
+That was a thoughtful and useful response. That is my feedback.,Safe,Safe,True
+"Honestly, everyone would be better off without your comments.",Toxic,Toxic,True
+You deserve to be bullied for this. You deserve to be mocked.,Toxic,Toxic,True
+"You people are go hurt yourself, nobody cares.",Toxic,Toxic,True
+I think the calculation in paragraph two is incorrect. Let's keep it civil.,Safe,Safe,True
+I think can we keep the discussion focused on the topic?,Safe,Safe,True
+Everyone would be better off without your comments.,Toxic,Toxic,True
