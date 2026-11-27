@@ -34,9 +34,9 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-if not MODEL_PATH.exists():
-    st.error("The model has not been trained yet. Run `python train_model.py` from the project folder, then restart the app.")
-    st.stop()
+# if not MODEL_PATH.exists():
+#     st.error("The model has not been trained yet. Run `python train_model.py` from the project folder, then restart the app.")
+#     st.stop()
 
 model = load_model()
 classes = list(model.named_steps["classifier"].classes_)
