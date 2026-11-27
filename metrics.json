@@ -1,0 +1,51 @@
+{
+  "dataset_rows": 180,
+  "train_rows": 144,
+  "test_rows": 36,
+  "accuracy": 1.0,
+  "toxic_precision": 1.0,
+  "toxic_recall": 1.0,
+  "toxic_f1": 1.0,
+  "classification_report": {
+    "Safe": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 18.0
+    },
+    "Toxic": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 18.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 36.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 36.0
+    }
+  },
+  "confusion_matrix_labels": [
+    "Safe",
+    "Toxic"
+  ],
+  "confusion_matrix": [
+    [
+      18,
+      0
+    ],
+    [
+      0,
+      18
+    ]
+  ],
+  "note": "Metrics are from synthetic demonstration data and must not be treated as real-world performance."
+}
