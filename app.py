@@ -4,7 +4,7 @@ import streamlit as st
 import pandas as pd
 import json
 
-ROOT = Path(__file__).resolve().parent
+# ROOT = Path(__file__).resolve().parent
 MODEL_PATH = "toxic_comment_model.joblib"
 METRICS_PATH = "metrics.json"
 
