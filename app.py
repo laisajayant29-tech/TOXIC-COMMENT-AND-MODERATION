@@ -5,8 +5,8 @@ import pandas as pd
 import json
 
 ROOT = Path(__file__).resolve().parent
-MODEL_PATH = ROOT / "models" / "toxic_comment_model.joblib"
-METRICS_PATH = ROOT / "reports" / "metrics.json"
+MODEL_PATH = "toxic_comment_model.joblib"
+METRICS_PATH = "metrics.json"
 
 st.set_page_config(page_title="CommentCare | NLP Moderation", page_icon="🛡️", layout="wide")
 
