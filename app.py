@@ -4,9 +4,9 @@ import streamlit as st
 import pandas as pd
 import json
 
-# ROOT = Path(__file__).resolve().parent
-MODEL_PATH = "toxic_comment_model.joblib"
-METRICS_PATH = "metrics.json"
+ROOT = Path(__file__).resolve().parent
+MODEL_PATH = ROOT / "models" / "toxic_comment_model.joblib"
+METRICS_PATH = ROOT / "reports" / "metrics.json"
 
 st.set_page_config(page_title="CommentCare | NLP Moderation", page_icon="🛡️", layout="wide")
 
@@ -34,9 +34,9 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# if not MODEL_PATH.exists():
-#     st.error("The model has not been trained yet. Run `python train_model.py` from the project folder, then restart the app.")
-#     st.stop()
+if not MODEL_PATH.exists():
+    st.error("The model has not been trained yet. Run `python train_model.py` from the project folder, then restart the app.")
+    st.stop()
 
 model = load_model()
 classes = list(model.named_steps["classifier"].classes_)
